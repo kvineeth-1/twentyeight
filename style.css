@@ -1,0 +1,29 @@
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    box-shadow: 5px 10px 2px 5px red;
+    transition: all 2s ease 1s,1s;
+    background-color: antiquewhite;
+
+}
+
+.box:hover{
+    transform: rotate(360deg);
+    width: 400px;
+}
+
+h1{
+   text-shadow: 2px 2px green;
+}
+.box2{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    margin-top: 30px;
+    transition: all 2s ease 1s,1s;
+    background-color: aqua;
+}
+.box2:hover{
+    transform: translateX(400px);
+}
